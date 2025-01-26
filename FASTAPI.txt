@@ -1,0 +1,76 @@
+10 Exercícios Básicos de FastAPI
+1. Criando uma API de Olá Mundo
+Crie uma simples API usando FastAPI que retorne a mensagem "Olá, Mundo!" quando acessada via HTTP GET no endpoint /.
+
+Objetivo: Criar uma rota simples usando FastAPI.
+
+2. API de Cadastro de Usuário
+Crie uma API com um endpoint POST em /usuarios/ que aceite um JSON com o nome e a idade de um usuário e retorne esses dados.
+
+Objetivo: Criar um endpoint POST e validar o corpo da requisição com o modelo Pydantic.
+
+3. API de Consulta de Usuário por ID
+Crie uma API com um endpoint GET em /usuarios/{id} que retorne os detalhes do usuário com base no ID passado como parâmetro.
+
+Objetivo: Criar um endpoint GET com parâmetros de URL.
+
+4. Validação de Dados com Pydantic
+Crie uma API com um endpoint POST em /produtos/ onde o cliente envia um JSON com o nome do produto e o preço. Valide os dados usando Pydantic para garantir que o preço seja um valor positivo.
+
+Objetivo: Trabalhar com validação de dados no FastAPI.
+
+5. Consultando uma Lista de Produtos
+Crie uma API com um endpoint GET em /produtos/ que retorne uma lista de produtos, com informações como id, nome e preco. Use uma lista pré-definida de produtos.
+
+Objetivo: Criar uma API que retorne uma lista de dados.
+
+6. API de Edição de Dados
+Crie um endpoint PUT em /usuarios/{id} para atualizar o nome e idade de um usuário com base no ID fornecido.
+
+Objetivo: Criar um endpoint PUT para atualizar dados existentes.
+
+7. Deletando Usuário
+Crie um endpoint DELETE em /usuarios/{id} que deleta um usuário com base no ID passado como parâmetro.
+
+Objetivo: Criar um endpoint DELETE para remover dados.
+
+8. Usando Path e Query Parameters
+Crie uma API com um endpoint GET em /produtos/{id}/comentarios/ que receba o ID do produto como parâmetro de URL e um parâmetro opcional limite para definir quantos comentários exibir.
+
+Objetivo: Trabalhar com parâmetros de URL e parâmetros de consulta (query parameters).
+
+9. Documentação Automática com Swagger
+Crie uma API que exponha um endpoint GET em /info/ e adicione uma descrição no modelo Pydantic para melhorar a documentação automática gerada pelo FastAPI.
+
+Objetivo: Explorar a documentação automática gerada pelo FastAPI com Swagger UI.
+
+10. API de Login Simples
+Crie um endpoint POST em /login/ que aceite um corpo JSON com username e password, e valide se os dados enviados correspondem a um usuário pré-definido.
+
+Objetivo: Trabalhar com autenticação simples no FastAPI.
+
+5 Exercícios Intermediários-Avançados de FastAPI
+1. Autenticação com JWT (JSON Web Token)
+Implemente um sistema de autenticação usando JWT para proteger rotas específicas. O endpoint /login/ deve gerar um token JWT e os usuários precisam enviar esse token nas requisições subsequentes para acessar endpoints protegidos.
+
+Objetivo: Implementar autenticação com JWT.
+
+2. Banco de Dados com SQLAlchemy
+Crie um modelo de banco de dados utilizando SQLAlchemy e integre com o FastAPI. Crie as rotas para cadastrar, listar e deletar produtos em um banco de dados relacional (como SQLite ou PostgreSQL).
+
+Objetivo: Integrar FastAPI com banco de dados usando SQLAlchemy.
+
+3. Upload de Arquivo
+Crie uma API que permita o envio de arquivos usando um endpoint POST em /upload/. O arquivo enviado deve ser armazenado no servidor e o caminho do arquivo deve ser retornado na resposta.
+
+Objetivo: Trabalhar com upload de arquivos no FastAPI.
+
+4. WebSocket com FastAPI
+Implemente uma API que utilize WebSockets para comunicação em tempo real. Crie um endpoint de WebSocket que permita que os usuários enviem mensagens que são transmitidas a todos os outros conectados.
+
+Objetivo: Criar uma API que utilize WebSockets no FastAPI.
+
+5. Testes Automatizados com FastAPI
+Implemente testes para sua API utilizando o módulo pytest. Crie testes para verificar se as rotas de cadastro e consulta de usuários funcionam corretamente.
+
+Objetivo: Aprender a criar e executar testes automatizados para APIs FastAPI.

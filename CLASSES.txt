@@ -1,0 +1,115 @@
+1. Criando uma Classe Simples
+Crie uma classe Pessoa que tenha os atributos nome e idade. Adicione um método para exibir os dados da pessoa.
+Exemplo de uso:
+pessoa = Pessoa("Ana", 25)
+pessoa.exibir_dados()  # Saída: "Nome: Ana, Idade: 25"
+
+2. Construtor de Classe
+Crie uma classe Carro que tenha os atributos modelo e ano. O construtor deve inicializar esses valores. Crie um método que mostre as informações do carro.
+
+Exemplo de uso:
+carro = Carro("Fusca", 1972)
+carro.mostrar_informacoes()  # Saída: "Modelo: Fusca, Ano: 1972"
+
+3. Métodos com Parâmetros
+Crie uma classe ContaBancaria com os atributos saldo e titular. Adicione um método depositar(valor) que aumenta o saldo da conta.
+Exemplo de uso:
+conta = ContaBancaria("João", 1000)
+conta.depositar(500)
+print(conta.saldo)  # Saída: 1500
+
+4. Método de Saque
+Na classe ContaBancaria, crie um método sacar(valor) que diminui o saldo da conta, desde que haja saldo suficiente.
+
+Exemplo de uso:
+conta.sacar(300)
+print(conta.saldo)  # Saída: 1200
+
+5. Classe com Atributos de Classe e de Instância
+Crie uma classe Livro com o atributo de classe genero e o atributo de instância titulo. Adicione um método que exibe o título e o gênero do livro.
+
+Exemplo de uso:
+livro = Livro("A Era do Império")
+livro.exibir_informacoes()  # Saída: "Título: A Era do Império, Gênero: Ficção"
+
+6. Contagem de Instâncias de Classe
+Adicione um contador de instâncias na classe Produto. Toda vez que uma instância de Produto for criada, o contador deve ser incrementado.
+
+Exemplo de uso:
+produto1 = Produto("Produto A")
+produto2 = Produto("Produto B")
+print(Produto.contador)  # Saída: 2
+
+7. Getter e Setter
+Crie uma classe Pessoa com um atributo privado idade. Adicione métodos get_idade() e set_idade() para acessar e modificar a idade.
+
+Exemplo de uso:
+pessoa = Pessoa("Maria", 30)
+pessoa.set_idade(35)
+print(pessoa.get_idade())  # Saída: 35
+
+8. Herança Simples
+Crie uma classe Funcionario com o atributo salario. Crie uma classe Gerente que herda de Funcionario e adiciona um atributo bonus. Crie um método que exiba o salário total do gerente.
+
+Exemplo de uso:
+gerente = Gerente("Carlos", 5000, 1000)
+print(gerente.salario_total())  # Saída: 6000
+
+9. Método de Classe
+Crie uma classe Aluno com um método de classe total_alunos() que retorna o total de alunos criados.
+
+Exemplo de uso:
+aluno1 = Aluno("João")
+aluno2 = Aluno("Ana")
+print(Aluno.total_alunos())  # Saída: 2
+
+10. Classe com Método Estático
+Crie uma classe Calculadora com um método estático somar(a, b) que retorna a soma de a e b.
+
+Exemplo de uso:
+resultado = Calculadora.somar(3, 5)
+print(resultado)  # Saída: 8
+
+DESAFIOS:
+1. Classe com Polimorfismo
+Crie uma classe Animal com um método fazer_som(). Crie duas classes filhas, Cachorro e Gato, que sobrescrevem o método fazer_som() para exibir sons diferentes para cada animal.
+
+Exemplo de uso:
+cachorro = Cachorro()
+gato = Gato()
+cachorro.fazer_som()  # Saída: "Au Au!"
+gato.fazer_som()  # Saída: "Miau!"
+
+2. Sobrecarga de Operadores
+Crie uma classe Ponto que represente um ponto no plano cartesiano (x, y). Sobrecarregue o operador + para somar dois objetos Ponto e retornar um novo ponto.
+
+Exemplo de uso:
+ponto1 = Ponto(2, 3)
+ponto2 = Ponto(4, 5)
+ponto3 = ponto1 + ponto2
+print(ponto3)  # Saída: Ponto(6, 8)
+
+3. Classe com Composição
+Crie uma classe Endereco com os atributos rua, numero, cidade, estado. Crie uma classe Pessoa que tenha um atributo endereco do tipo Endereco. Exiba o endereço da pessoa.
+
+Exemplo de uso:
+endereco = Endereco("Rua A", 123, "São Paulo", "SP")
+pessoa = Pessoa("Lucas", endereco)
+pessoa.exibir_endereco()  # Saída: "Rua A, 123, São Paulo, SP"
+
+4. Classe com Métodos Abstratos
+Crie uma classe abstrata Veiculo com um método abstrato acelerar(). Crie duas classes Carro e Bicicleta que implementam esse método de maneira diferente.
+
+Exemplo de uso:
+carro = Carro("Fusca")
+bicicleta = Bicicleta("Caloi")
+carro.acelerar()  # Saída: "Carro acelerando"
+bicicleta.acelerar()  # Saída: "Bicicleta pedalando"
+
+5. Gerenciamento de Recursos com __enter__ e __exit__
+Implemente uma classe AbrirArquivo que utilize o contexto with para abrir e fechar um arquivo automaticamente. O método __enter__ abre o arquivo e o __exit__ o fecha.
+
+Exemplo de uso:
+with AbrirArquivo("teste.txt") as arquivo:
+    conteudo = arquivo.ler()
+    print(conteudo)

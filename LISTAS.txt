@@ -1,0 +1,56 @@
+1. Criar e Exibir uma Lista
+Crie uma lista de números de 1 a 5 e exiba seu conteúdo.
+
+2. Acessar Elementos da Lista
+Dada a lista: nomes = ["Ana", "Bruno", "Carlos", "Daniela", "Eduardo"]
+Peça ao usuário um número de 1 a 5 e exiba o nome correspondente.
+
+3. Adicionar Elemento à Lista
+Adicione o nome "Fernando" à lista de nomes. Depois, exiba a lista atualizada.
+
+4. Remover Elemento da Lista
+Remova o nome "Bruno" da lista e exiba a lista após a remoção.
+
+5. Verificar se um Elemento Está na Lista
+Peça ao usuário um nome e verifique se ele está na lista: nomes = ['Ana', 'Bruno', 'Carlos', 'Daniela', 'Eduardo']
+
+
+6. Contar Elementos da Lista
+Crie uma lista de números e conte quantas vezes o número 3 aparece nela.
+
+7. Ordenar a Lista
+Crie uma lista de números desordenados e ordene-os em ordem crescente.
+
+8. Concatenar Duas Listas
+Crie duas listas e una-as em uma terceira lista.
+
+9. Multiplicar Elementos da Lista
+Crie uma lista de números e multiplique todos os seus elementos por 2.
+
+10. Acessar o Último Elemento da Lista
+Crie uma lista e exiba o último elemento dela.
+
+DESAFIOS:
+
+1. Filtrar Números Pares e Ímpares
+Crie uma lista com 10 números e separe-os em duas listas: uma com os pares e outra com os ímpares.
+
+2. Remover Elementos Duplicados
+Dada uma lista com elementos repetidos, crie uma nova lista sem duplicatas.
+Exemplo:
+Entrada: [1, 2, 3, 2, 4, 5, 5, 6]
+Saída: [1, 2, 3, 4, 5, 6]
+
+3. Criar um Sistema de Pontuação
+Crie um programa que armazene a pontuação de jogadores em uma lista e exiba:
+
+O maior e menor pontuação
+A média das pontuações
+
+4. Embaralhar uma Lista
+Crie uma lista de 5 elementos e embaralhe os elementos aleatoriamente. Utilize a função shuffle do módulo random.
+
+5. Converter Lista em String
+Crie uma lista de palavras e una-as em uma única string separada por espaços.
+
+

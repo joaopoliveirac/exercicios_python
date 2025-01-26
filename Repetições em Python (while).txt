@@ -1,0 +1,73 @@
+1. Contagem de 1 a 10
+Use um loop while para exibir os números de 1 a 10.
+
+2. Tabuada de um Número
+Peça ao usuário um número e exiba sua tabuada de 1 a 10 usando while.
+
+3. Número Secreto
+Crie um programa que sorteia um número de 1 a 100 e peça ao usuário para adivinhar. O programa continua executando até que o usuário acerte.
+
+4. Soma dos Primeiros N Números
+Peça um número ao usuário e use while para calcular a soma dos primeiros N números naturais.
+
+5. Verificação de Senha
+Crie um sistema que continue pedindo uma senha até que o usuário digite "1234".
+
+6. Número de Dígitos de um Número
+Peça ao usuário um número inteiro e conte quantos dígitos ele tem usando while.
+
+7. Fatorial de um Número
+Peça ao usuário um número e calcule seu fatorial usando while.
+
+8. Média de Números Positivos
+Peça ao usuário vários números positivos e calcule a média. O programa deve parar quando o usuário digitar um número negativo.
+
+Exemplo:
+Entrada: 10, 20, 30, -1
+Saída: "Média: 20.0"
+
+9. Sequência de Fibonacci (até N termos)
+Peça ao usuário um número N e exiba os primeiros N números da sequência de Fibonacci usando while.
+
+10. Inverter um Número
+Peça ao usuário um número inteiro e exiba ele invertido usando while.
+
+DESAFIOS:
+
+1. Jogo de Adivinhação com Tentativas Limitadas
+Crie um jogo onde o usuário tem 5 tentativas para adivinhar um número entre 1 e 50.
+
+Exemplo:
+Entrada: 10 (tentativa errada)
+Entrada: 25 (tentativa errada)
+Entrada: 33 (acertou!)
+Saída: "Parabéns! Você acertou em 3 tentativas."
+
+2. Número Primo
+Peça ao usuário um número e use while para verificar se ele é primo (divisível apenas por 1 e ele mesmo).
+
+Exemplo:
+Entrada: 13
+Saída: "13 é um número primo."
+
+3. Conversor de Número para Binário
+Peça ao usuário um número decimal e converta para binário usando while.
+
+Exemplo:
+Entrada: 10
+Saída: "1010"
+
+4. Palíndromo Numérico
+Peça ao usuário um número e verifique se ele é um palíndromo (igual quando lido de trás para frente).
+
+Exemplo:
+Entrada: 12321
+Saída: "O número é um palíndromo."
+
+5. Sequência de Collatz
+Peça ao usuário um número e aplique a Sequência de Collatz até chegar a 1.
+
+Regras:
+
+Se o número for par, divida por 2.
+Se for ímpar, multiplique por 3 e some 1.

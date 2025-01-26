@@ -1,0 +1,46 @@
+1. Criar e Exibir um Dicionário
+Crie um dicionário com nomes como chaves e idades como valores. Exiba o conteúdo do dicionário.
+
+2. Acessar um Valor no Dicionário
+Dado o dicionário idades, peça ao usuário para digitar o nome de uma pessoa e exiba sua idade.
+
+3. Adicionar um Novo Par Chave-Valor
+Adicione um novo nome e idade ao dicionário. Exiba o dicionário após a adição.
+
+4. Remover um Par Chave-Valor
+Dado o dicionário idades, remova o par chave-valor de "Carlos". Exiba o dicionário após a remoção.
+
+5. Verificar Existência de uma Chave
+Dado o dicionário idades, verifique se a chave "João" existe.
+
+6. Modificar o Valor de uma Chave
+Modifique a idade de "Ana" para 24. Exiba o dicionário após a modificação.
+
+7. Iterar sobre um Dicionário
+Crie um dicionário com nomes de países como chaves e suas populações como valores. Exiba todos os países e suas populações.
+
+8. Obter Todas as Chaves e Valores
+Crie um dicionário e exiba todas as chaves e valores em listas separadas.
+
+9. Ordenar um Dicionário por Valores
+Dado um dicionário com números como valores, ordene-o em ordem crescente.
+
+10. Mesclar Dois Dicionários
+Dado dois dicionários, mescle-os em um único dicionário.
+
+DESAFIOS:
+
+1. Inverter um Dicionário
+Crie uma função que inverta um dicionário, trocando as chaves pelos valores.
+
+2. Contar Ocorrências de Elementos em uma Lista de Dicionários
+Dada uma lista de dicionários com nomes e idades, crie um dicionário que conte quantas vezes cada idade aparece na lista.
+
+3. Dicionário de Frequência de Palavras
+Crie um dicionário que conta a frequência de palavras em uma lista de palavras.
+
+4. Filtrar um Dicionário com Base no Valor
+Dado um dicionário de produtos com preços, crie um novo dicionário que contenha apenas os produtos com preços acima de 50.
+
+5. Agrupar Itens de uma Lista em um Dicionário
+Dada uma lista de tuplas, agrupe as tuplas por chaves e crie um dicionário onde as chaves sejam o primeiro elemento de cada tupla e os valores sejam listas com os segundos elementos.

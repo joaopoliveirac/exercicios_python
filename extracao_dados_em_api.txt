@@ -1,0 +1,61 @@
+Exercícios Básicos:
+1-Extração de Dados de uma API Pública (exemplo: JSONPlaceholder)
+Objetivo: Fazer uma requisição GET para a API JSONPlaceholder e exibir os dados de usuários (/users).
+Dica: Use a biblioteca requests para obter os dados e imprima os resultados.
+
+2-Obter Dados de um Repositório no GitHub
+Objetivo: Fazer uma requisição GET para a API do GitHub e obter informações sobre um repositório público, como https://api.github.com/repos/{owner}/{repo}.
+Dica: Escolha um repositório público e use a API para extrair informações como nome, descrição e número de estrelas.
+
+3-Extração de Dados Climáticos com a API OpenWeatherMap
+Objetivo: Utilizar a OpenWeatherMap API para obter o clima de uma cidade específica.
+Dica: Inscreva-se para uma chave de API gratuita e use a API para obter dados como temperatura, umidade e condições climáticas.
+
+4-Consultar Preços de Criptomoedas com a CoinGecko API
+Objetivo: Acesse a API pública da CoinGecko e extraia informações sobre o preço de criptomoedas, como o Bitcoin.
+Dica: Use https://api.coingecko.com/api/v3/simple/price?ids=bitcoin&vs_currencies=usd para obter o preço do Bitcoin em USD.
+
+5-Listar Filmes Usando a API do The Movie Database (TMDb)
+Objetivo: Faça uma requisição GET para a API TMDb para listar os 10 filmes mais populares.
+Dica: Use a API TMDb para obter dados sobre filmes populares.
+
+6-Extrair Informações de Podcasts Usando a API de Podcasts
+Objetivo: Utilize uma API de podcasts, como Podcast Index API, para listar os 5 podcasts mais populares.
+Dica: Realize uma requisição GET para obter os dados e exibir informações como nome, descrição e link do podcast.
+
+7-Obter Dados de Notícias com a News API
+Objetivo: Use a News API para obter as últimas notícias sobre tecnologia ou qualquer outro tópico de sua escolha.
+Dica: Realize uma requisição com parâmetros de pesquisa e exiba as notícias mais relevantes.
+
+8-Consultar Dados de Filmes por Gênero com a API do IMDB
+Objetivo: Acesse a API pública do IMDB (ou TMDb) e obtenha uma lista de filmes de um gênero específico, como ação ou comédia.
+Dica: Realize uma busca por gênero e mostre detalhes como título, ano e avaliação.
+
+9-Extração de Dados de Transações Financeiras Usando a API da Plaid
+Objetivo: Usar a Plaid API para acessar dados de transações bancárias (pode ser necessário criar uma conta de desenvolvedor).
+Dica: Faça a autenticação e extração de dados de transações de um usuário.
+
+10-Buscar Dados de Livros Usando a API do Google Books
+Objetivo: Utilize a Google Books API para buscar livros por título ou autor e exiba os detalhes (título, autor, descrição).
+Dica: Pesquise por um autor famoso ou um título específico e extraia informações relacionadas.
+Exercícios Intermediários a Avançados:
+
+1-Autenticação OAuth2 com a API do Google (Google Sheets)
+Objetivo: Implemente a autenticação OAuth2 e acesse uma planilha do Google Sheets via a API do Google Sheets. Leia dados de uma planilha pública.
+Dica: Registre seu aplicativo no Google Developers Console, obtenha credenciais e use bibliotecas como google-auth e google-api-python-client.
+
+2-Integração com API RESTful em um Projeto de Web Scraping
+Objetivo: Crie um script que combine web scraping com API para extrair dados e integrá-los (por exemplo, usando BeautifulSoup para scraping e API para obter dados relacionados).
+Dica: Use uma API para obter detalhes complementares a partir dos dados raspados de uma página.
+
+3-Trabalhando com Webhooks: Consumindo Dados de um Endpoint
+Objetivo: Implemente um consumidor de dados usando um webhook. Escolha uma API que forneça dados em tempo real e configure seu código para ouvir e processar os eventos.
+Dica: APIs como a do GitHub, Stripe ou Twilio podem enviar dados em tempo real usando webhooks.
+
+4-Processamento Assíncrono com API com aiohttp
+Objetivo: Use a biblioteca aiohttp para fazer chamadas assíncronas a múltiplas APIs de forma paralela. Por exemplo, consulte várias APIs de clima para diferentes cidades e mostre os resultados simultaneamente.
+Dica: Utilize asyncio e aiohttp para otimizar a chamada de múltiplas APIs.
+
+5-Integração de Dados de API com Banco de Dados Relacional
+Objetivo: Extraia dados de uma API e insira esses dados em um banco de dados relacional (por exemplo, PostgreSQL ou MySQL).
+Dica: Use a biblioteca SQLAlchemy para interagir com o banco de dados e insira os dados extraídos de uma API como o GitHub ou uma API de finanças.

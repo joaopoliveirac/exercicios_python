@@ -1,0 +1,45 @@
+1. Função que Retorna Olá!
+Crie uma função chamada saudacao() que não recebe argumentos e imprime a mensagem "Olá!" na tela.
+
+2. Função com Parâmetro de Saída
+Crie uma função soma(a, b) que recebe dois números e retorna a soma deles.
+
+3. Função com Condicional
+Crie uma função verifica_par_impar(n) que recebe um número n e retorna "Par" se o número for par e "Ímpar" se for ímpar.
+
+4. Função que Retorna o Maior Número
+Crie uma função maior_numero(a, b, c) que retorna o maior número entre três números fornecidos como parâmetros.
+
+5. Função com Lista de Parâmetros
+Crie uma função media(lista) que recebe uma lista de números e retorna a média desses números.
+
+6. Função que Concatena Strings
+Crie uma função concatena_strings(s1, s2) que recebe duas strings e retorna a concatenação delas.
+
+7. Função para Contar Caracteres
+Crie uma função conta_caracteres(s) que recebe uma string s e retorna o número de caracteres dela.
+
+8. Função de Fatorial
+Crie uma função fatorial(n) que calcula o fatorial de um número n.
+
+9. Função de Contagem Regressiva
+Crie uma função contagem_regressiva(n) que recebe um número n e imprime os números de n até 1.
+
+10. Função de Troca de Elementos
+Crie uma função troca(a, b) que troca os valores das variáveis a e b e os retorna.
+
+DESAFIOS:
+1. Função Recursiva de Fatorial
+Crie uma função recursiva fatorial(n) para calcular o fatorial de um número n (sem usar loops).
+
+2. Função que Verifica Palíndromos
+Crie uma função verifica_palindromo(s) que recebe uma string s e retorna True se a string for um palíndromo (ou seja, pode ser lida da mesma forma de trás para frente), e False caso contrário.
+
+3. Função que Gera uma Sequência de Fibonacci
+Crie uma função fibonacci(n) que retorna a sequência de Fibonacci até o n-ésimo número. A sequência começa com 0 e 1, e os próximos números são a soma dos dois anteriores.
+
+4. Função que Verifica se um Número é Primo
+Crie uma função verifica_primo(n) que recebe um número n e retorna True se ele for primo (divisível apenas por 1 e por ele mesmo) e False caso contrário.
+
+5. Função que Realiza um Desafio de Jogo de Adivinhação
+Crie uma função adivinha_numero() que sorteia um número aleatório entre 1 e 100, e o usuário tem que adivinhar o número. A função deve retornar "Muito alto", "Muito baixo" ou "Acertou!" dependendo do valor da tentativa. O jogo continua até o número ser adivinhado.

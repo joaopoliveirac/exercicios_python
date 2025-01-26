@@ -1,0 +1,70 @@
+1. Contagem de 1 a 10
+Use um loop for para exibir os números de 1 a 10.
+
+2. Tabuada de um Número
+Peça ao usuário um número e exiba sua tabuada de 1 a 10.
+
+3. Soma dos Primeiros N Números
+Peça um número ao usuário e calcule a soma dos primeiros N números naturais.
+
+4. Contar Vogais em uma Palavra
+Peça ao usuário uma palavra e conte quantas vogais (a, e, i, o, u) existem nela.
+
+5. Exibir os Números Pares de 1 a 20
+Use um for para imprimir apenas os números pares de 1 a 20.
+
+6. Fatorial de um Número
+Peça ao usuário um número e calcule o fatorial usando um for.
+
+7. Sequência de Fibonacci (até N termos)
+Peça ao usuário um número N e exiba os primeiros N números da sequência de Fibonacci.
+
+8. Números Primos até N
+Peça ao usuário um número N e exiba todos os números primos até N.
+
+9. Inverter uma Palavra
+Peça ao usuário uma palavra e a exiba de trás para frente, utilizando for.
+
+10. Desenhar um Triângulo de Asteriscos
+Peça ao usuário um número N e exiba um triângulo de altura N usando *.
+
+DESAFIOS:
+
+1. Número Perfeito
+Um número perfeito é aquele cuja soma dos seus divisores (exceto ele mesmo) é igual ao próprio número.
+
+Peça ao usuário um número e verifique se ele é perfeito.
+
+Exemplo:
+Entrada: 6
+Divisores: 1, 2, 3
+Soma: 1 + 2 + 3 = 6
+Saída: "6 é um número perfeito"
+
+2. Contagem de Palavras em um Texto
+Peça ao usuário uma frase e conte quantas palavras existem nela (considerando espaços como separadores).
+
+Exemplo:
+Entrada: "Eu gosto de programar em Python"
+Saída: 6 palavras
+
+3. Verificar se uma Palavra é um Pangrama
+Um pangrama é uma frase que contém todas as letras do alfabeto pelo menos uma vez.
+
+Peça ao usuário uma frase e verifique se ela é um pangrama.
+
+Exemplo:
+Entrada: "The quick brown fox jumps over the lazy dog"
+Saída: "É um pangrama"
+
+4. Matriz Identidade
+Peça ao usuário um número N e gere uma matriz identidade de ordem N × N.
+
+5. Cálculo do Número de Dígitos de um Fatorial
+Peça ao usuário um número N e calcule quantos dígitos tem o número N! sem calcular o fatorial diretamente.
+
+Dica: Utilize logaritmos para encontrar o número de dígitos.
+
+Exemplo:
+Entrada: 10!
+Saída: 7 dígitos (pois 10! = 3.628.800 tem 7 dígitos)

@@ -1,0 +1,67 @@
+1. Criar e Exibir uma Tupla
+Crie uma tupla com os dias da semana e exiba seu conteúdo.
+
+2. Acessar Elementos da Tupla
+Dada a tupla meses = ('Janeiro', 'Fevereiro', 'Março', ..., 'Dezembro'), peça ao usuário um número de 1 a 12 e exiba o mês correspondente.
+
+3. Verificar se um Elemento Está na Tupla
+Peça ao usuário um nome e verifique se ele está na tupla:
+
+4. Contar Elementos em uma Tupla
+Dada a tupla: numeros = (1, 2, 3, 4, 3, 2, 1, 3, 4, 5)
+Conte quantas vezes o número 3 aparece.
+
+5. Índice de um Elemento
+Usando a mesma tupla do exercício anterior, encontre o índice da primeira ocorrência do número 4.
+
+6. Concatenar Duas Tuplas
+Crie duas tuplas de números e una as duas em uma terceira tupla.
+
+7. Desempacotar uma Tupla
+Dada a tupla: dados = ("Maria", 25, "Engenheira")
+
+Desempacote-a em três variáveis e exiba os valores separadamente.
+
+8. Ordenar Elementos de uma Tupla
+Dada a tupla: valores = (10, 5, 8, 1, 3)
+
+Ordene seus elementos em ordem crescente.
+
+9. Maior e Menor Valor em uma Tupla
+Dada a tupla de números, encontre o maior e o menor valor.
+
+10. Criar uma Tupla a Partir de uma Lista
+Peça ao usuário uma lista de números separados por espaço e converta-a para uma tupla.
+
+DESAFIOS:
+
+1. Encontrar Elementos Únicos
+Dada uma tupla com números repetidos, crie uma nova tupla apenas com os elementos únicos.
+
+Exemplo:
+Entrada: (1, 2, 2, 3, 4, 4, 5, 5, 5)
+Saída: (1, 2, 3, 4, 5)
+
+2. Jogo de Estatísticas com Tuplas
+Peça ao usuário para digitar 10 números e armazene-os em uma tupla. Depois, exiba:
+
+A média dos números
+Quantos são pares
+Quantos são ímpares
+
+3. Verificar Anagrama com Tuplas
+Peça ao usuário duas palavras e verifique se são anagramas usando tuplas.
+
+Exemplo:
+Entrada: "amor", "roma"
+Saída: "São anagramas!"
+
+4. Criar uma Tupla de Palavras Ordenadas
+Peça ao usuário uma frase e armazene cada palavra em uma tupla ordenada alfabeticamente.
+
+Exemplo:
+Entrada: "Python é uma linguagem poderosa"
+Saída: ('Python', 'é', 'linguagem', 'poderosa', 'uma')
+
+5. Criar uma Tabela com Tuplas
+Crie um programa que armazena os dados de 5 produtos em uma tupla contendo: (nome, preço, quantidade). Depois, exiba uma tabela formatada com os dados.

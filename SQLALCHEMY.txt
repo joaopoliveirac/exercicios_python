@@ -1,0 +1,75 @@
+1. Criando uma Tabela e Inserindo Dados
+Crie uma classe Pessoa com os campos id, nome e idade. Crie a tabela no banco de dados e insira alguns registros de pessoas.
+
+Objetivo: Criar uma tabela e inserir dados no banco usando SQLAlchemy.
+
+2. Consultando Dados
+Crie a classe Produto com os campos id, nome e preco. Insira pelo menos três produtos na tabela e faça uma consulta para exibir todos os produtos com preço superior a 50.
+
+Objetivo: Realizar uma consulta simples com filtro.
+
+3. Atualizando Registros
+Crie uma classe Cliente com os campos id, nome e email. Insira um cliente e, em seguida, atualize o email de um cliente específico.
+
+Objetivo: Atualizar um registro usando SQLAlchemy.
+
+4. Deletando Registros
+Crie uma classe Funcionario com os campos id, nome e salario. Insira alguns funcionários e, depois, exclua um funcionário pelo seu ID.
+
+Objetivo: Deletar registros do banco de dados.
+
+5. Relacionamento Um-para-Muitos
+Crie duas classes: Autor e Livro. Um autor pode ter vários livros. Insira um autor e vários livros relacionados a ele.
+
+Objetivo: Criar um relacionamento de um-para-muitos entre duas tabelas.
+
+6. Relacionamento Muitos-para-Muitos
+Crie uma classe Aluno e uma classe Curso. Um aluno pode estar matriculado em vários cursos e um curso pode ter vários alunos. Crie o relacionamento muitos-para-muitos entre as tabelas.
+
+Objetivo: Criar um relacionamento muitos-para-muitos com uma tabela associativa.
+
+7. Criando um Índice
+Crie uma tabela Produto com os campos id, nome, descricao e preco. Crie um índice para o campo preco.
+
+Objetivo: Criar um índice para otimizar consultas no banco de dados.
+
+8. Consultas com Join
+Crie as classes Autor e Livro (como no exercício 5). Faça uma consulta que traga os livros junto com o nome do autor utilizando join.
+
+Objetivo: Realizar uma consulta com join entre tabelas relacionadas.
+
+9. Consultas com Ordenação e Limite
+Crie uma classe Produto com os campos id, nome e preco. Insira vários produtos e, depois, faça uma consulta que ordene os produtos pelo preço de forma decrescente e limite o resultado a 5 produtos.
+
+Objetivo: Ordenar resultados e aplicar limite na consulta.
+
+10. Trabalhando com Data e Hora
+Crie uma classe Evento com os campos id, nome, data_inicio e data_fim. Insira alguns eventos e faça uma consulta para encontrar todos os eventos que começam após uma data específica.
+
+Objetivo: Trabalhar com tipos de dados de data e hora em consultas.
+
+5 Exercícios Intermediários-Avançados de SQLAlchemy
+1. Trabalhando com Transactions
+Crie um sistema simples com duas tabelas: ContaBancaria e Transacao. Realize uma transação para transferir um valor entre duas contas, garantindo que ambas as operações de débito e crédito sejam executadas dentro de uma única transação.
+
+Objetivo: Trabalhar com transações para garantir consistência no banco de dados.
+
+2. Métodos Agregados e Funções
+Crie uma tabela Venda com os campos id, produto, quantidade e preco_unitario. Calcule o valor total de vendas de cada produto e mostre a soma total de vendas de todos os produtos.
+
+Objetivo: Utilizar funções agregadas (como sum, avg) e group by no SQLAlchemy.
+
+3. Subconsultas
+Crie duas tabelas: Funcionario (com id, nome, salario) e Departamento (com id, nome, funcionario_id). Faça uma consulta que traga todos os departamentos com o salário médio superior a 5000, utilizando uma subconsulta.
+
+Objetivo: Realizar subconsultas em SQLAlchemy.
+
+4. Polimorfismo de Tabelas
+Crie uma tabela Veiculo com os campos id e modelo, e duas classes filhas Carro e Moto, cada uma com atributos adicionais específicos. Use herança de classes no SQLAlchemy para mapear essas classes para uma única tabela (tabela única de herança).
+
+Objetivo: Trabalhar com herança e polimorfismo em SQLAlchemy.
+
+5. Consultas Complexas com Aliases e Funções de Janela
+Crie uma tabela Vendas com os campos id, data_venda, produto e valor. Calcule o valor acumulado das vendas para cada produto ao longo do tempo usando funções de janela (ex: row_number(), sum() over()) e aliases.
+
+Objetivo: Realizar consultas complexas usando funções de janela e aliases.
