@@ -1,0 +1,48 @@
+1-Classe Pessoa e herança
+Crie uma classe Pessoa com atributos nome e idade. Depois, crie uma subclasse Funcionario que adiciona cargo e salario. Implemente um método aumentar_salario(porcentagem).
+
+2-Classe ContaBancaria com encapsulamento
+Implemente uma classe ContaBancaria com atributos privados _saldo e _titular. Adicione métodos para depositar(valor), sacar(valor) e obter_saldo().
+
+3-Classe Carro com contagem de instâncias
+Crie uma classe Carro com os atributos marca, modelo e ano. Adicione um atributo de classe quantidade_carros que aumenta sempre que um novo carro é instanciado.
+
+4-Classe Produto com desconto
+Implemente uma classe Produto com nome, preco e um método aplicar_desconto(porcentagem). O preço deve ser atualizado corretamente.
+
+5-Classe Livro e método especial __str__
+Crie uma classe Livro com titulo, autor e ano. Sobrescreva o método __str__ para exibir a informação de maneira amigável.
+
+6-Classe Aluno com métodos estáticos
+Crie uma classe Aluno com nome e notas (uma lista). Adicione um método estático media(notas) para calcular a média das notas.
+
+7-Classe Veiculo e polimorfismo
+Crie uma classe Veiculo com um método mover(). Depois, crie subclasses Carro, Bicicleta e Aviao, cada uma com sua própria implementação de mover().
+
+8-Classe Sensor e manipulação de arquivos
+Implemente uma classe Sensor que lê dados de um arquivo CSV e retorna a média dos valores de uma determinada coluna.
+
+9-Classe Fila com estrutura de dados
+Crie uma classe Fila para simular uma estrutura FIFO (First-In, First-Out), utilizando uma lista interna e métodos adicionar() e remover().
+
+10-Classe Funcionario com classe interna
+Crie uma classe Funcionario com um atributo endereco que é uma instância de uma classe Endereco. O Endereco deve conter rua, cidade e CEP.
+
+AVANÇADOS
+1-Classe ETL com transformação de dados
+Crie uma classe ETL com os métodos extrair(), transformar() e carregar(). O método extrair() deve ler um arquivo CSV, transformar() deve converter os valores para um formato específico, e carregar() deve salvar os dados em um novo arquivo.
+
+2-Classe Pipeline para processamento de dados
+Implemente uma classe Pipeline que recebe funções e as executa em sequência sobre um conjunto de dados. Exemplo:
+pipeline = Pipeline([limpar_dados, normalizar, salvar_csv])
+pipeline.executar(dados)
+
+3-Classe DataFramePersonalizado usando Pandas
+Crie uma classe DataFramePersonalizado que encapsula um pandas.DataFrame, adicionando métodos como filtrar(coluna, valor), ordenar(coluna), e agrupar(coluna, funcao).
+
+4-Classe ConexaoBD para interação com PostgreSQL
+Desenvolva uma classe ConexaoBD que se conecta a um banco de dados PostgreSQL, executa consultas SQL e retorna os resultados.
+
+5-Classe JobScheduler para simular agendamento de tarefas
+Implemente uma classe JobScheduler onde você pode adicionar tarefas com tempos de execução específicos, e ela executa as tarefas automaticamente no tempo correto.
+
