@@ -11,7 +11,6 @@
 import string
 
 def verificao_senha(senha):
-    lista= []
     if len(senha) < 6:
         return 'Senha fraca.'
     elif 6 <= len(senha) <= 10:
