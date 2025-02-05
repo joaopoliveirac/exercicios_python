@@ -6,25 +6,18 @@
 from random import randint
 
 def adivinha_numero():
-    aleatorio = randint(1, 100)  # O número sorteado deve estar entre 1 e 100
-    numero = None  # Inicializa a variável
-    
+    numero = None
+    aleatorio = randint(1,100)
     while numero != aleatorio:
         try:
-            numero = int(input("Informe um número de 1 a 100: "))  # Garante que a entrada seja um número inteiro
-            if numero < 1 or numero > 100:
-                print("Por favor, digite um número entre 1 e 100.")
-                continue  # Volta para a próxima iteração do loop
+            numero = int(input('informe um numero de 1 a 100 até acerta: '))
         except ValueError:
-            print("Entrada inválida! Digite um número inteiro.")
-            continue  # Volta para a próxima iteração do loop
-
+            print('Digite um numero inteiro de 1 a 100.')
+            continue
         if numero < aleatorio:
-            print("Muito baixo.")
+            print('numero muito baixo.')
         elif numero > aleatorio:
-            print("Muito alto.")
-
-    return f"Acertou! O número era {aleatorio}."
-
-# Chama a função
+            print('numero muito alto.')
+    return f'Voce acerto! O numero era {aleatorio} e voce digitou o {numero}.'
+        
 print(adivinha_numero())
