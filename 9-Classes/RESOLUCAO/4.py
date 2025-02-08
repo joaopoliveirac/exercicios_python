@@ -10,7 +10,7 @@ class Produto:
     
     def aplicar_desconto(self,porcentagem):
         self.preco_novo = self.preco * (1- porcentagem / 100)
-        return f'{self.nome} era {self.preco}, ganhou {porcentagem} % de desconto e saiu por {self.preco_novo}'
+        return f'{self.nome} era {self.preco:.2f}, ganhou {porcentagem:.2f} % de desconto e saiu por {self.preco_novo:.2f}'
 
 p1 = Produto('computador', 2000)
 print(p1.aplicar_desconto(20))
