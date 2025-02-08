@@ -52,6 +52,8 @@ class ContaBancaria:
 
 conta = ContaBancaria(1000,'joao')  
 print(conta.saldo, conta.titular)
+conta.saldo = 3000
+print(conta.saldo)
 
 
 
