@@ -1,7 +1,7 @@
-﻿valor
-10
-15
-60
-30
-70
-70
+﻿valor,nome,idade,sexo
+10,joao,17,masculino
+15,maria,23,feminino
+60,jose,25,masculino
+30,fernanda,37,masculino
+70,jp,59,feminino
+70,ernandes,64,feminino
