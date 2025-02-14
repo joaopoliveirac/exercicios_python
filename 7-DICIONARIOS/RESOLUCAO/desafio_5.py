@@ -18,6 +18,10 @@ produtos = [
     ("Cabo USB", 30.00)
 ]
 
+for chave, valor,teste in produtos:
+    print(chave)
+    print(valor)
+    print(teste)
 print(agrupar_itens(produtos))
 
 

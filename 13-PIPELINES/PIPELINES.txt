@@ -1,0 +1,32 @@
+Nível Básico:
+Leitura e Escrita em Arquivos CSV:
+1-Crie um pipeline que leia um arquivo CSV, filtre algumas colunas e escreva os resultados em um novo arquivo CSV.
+
+Transformação de Dados:
+2-Crie um pipeline para carregar um conjunto de dados em formato JSON, fazer algumas transformações simples (ex.: conversão de datas, remoção de valores nulos) e salvá-lo em CSV.
+
+Conexão com Banco de Dados e Extração de Dados:
+3-Crie um pipeline que se conecte a um banco de dados (pode ser SQLite ou PostgreSQL), extraia dados de uma tabela e salve-os em um arquivo CSV.
+
+Filtro de Dados com Pandas:
+4-Crie um pipeline que leia um arquivo CSV, filtre registros com base em condições específicas (ex.: valores acima de um limite) e salve os dados filtrados em um novo arquivo.
+
+Nível Intermediário:
+Pipeline de ETL Simples com Pandas:
+5-Crie um pipeline que extraia dados de múltiplos arquivos CSV, combine-os em um único DataFrame, faça algumas transformações e escreva o resultado em um banco de dados.
+
+ETL com Armazenamento em AWS S3:
+6-Construa um pipeline que extraia dados de uma fonte (ex.: API), processe esses dados e faça o upload do resultado para um bucket do AWS S3.
+
+Pipeline de Processamento de Dados em Tempo Real:
+7-Simule um pipeline que receba dados em tempo real (por exemplo, de uma fila Kafka), processe esses dados e salve em um banco de dados.
+
+Automatização de Pipeline com Airflow:
+8-Crie um pipeline básico utilizando o Apache Airflow para orquestrar a execução de tarefas ETL, como extração de dados, transformação e carregamento em um banco de dados.
+
+Nível Avançado:
+Pipeline com Parquet e Pandas para Processamento em Grande Escala:
+9-Crie um pipeline que extraia dados de arquivos CSV, converta-os para o formato Parquet para otimização de leitura e armazenamento, e depois carregue os dados em um banco de dados de Big Data como o Apache Hive ou AWS Redshift.
+
+Criação de Pipeline de Machine Learning com Scikit-learn e Flask:
+10-Crie um pipeline de ML que extraia dados de uma API, faça o pré-processamento dos dados, aplique um modelo de machine learning e disponibilize o modelo para consultas via API utilizando Flask.

@@ -1,3 +1,11 @@
+s[início:fim]	Fatiamento normal
+s[:fim]	Do início até fim
+s[início:]	De início até o final
+s[:]	Cópia da string inteira
+s[início:fim:passo]	Com salto entre caracteres
+s[::-1]	Inverte a string
+
+
 1. Contar Caracteres
 Escreva um programa que peça ao usuário para digitar uma palavra e exiba a quantidade de caracteres que ela possui.
 
