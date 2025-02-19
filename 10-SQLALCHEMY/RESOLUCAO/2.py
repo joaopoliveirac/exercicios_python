@@ -29,9 +29,3 @@ if __name__ == '__main__':
     sessao.close()
 
 
-
-
-
-
-
-
