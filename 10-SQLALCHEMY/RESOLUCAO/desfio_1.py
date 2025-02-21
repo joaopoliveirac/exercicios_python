@@ -61,7 +61,7 @@ def transferir(sessao, conta_origem_id, conta_destino_id, valor):
         sessao.rollback()
 
 # Configuração do banco e inserção de contas
-db = ConexaoBD("postgres", "1234", "localhost", "5432", "exercicio_1")
+db = ConexaoBD("postgres", "1234", "localhost", "5432", "desafio_1")
 Base.metadata.create_all(db.engine)
 
 sessao = db.conectar()
