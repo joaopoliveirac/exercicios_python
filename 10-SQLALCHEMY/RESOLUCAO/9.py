@@ -30,7 +30,7 @@ produtos = [
     Produto(nome='Impressora', preco=1100),
     Produto(nome='Cadeira Gamer', preco=750),
     Produto(nome='Mesa Escritório', preco=950),
-    Produto(nome='Placa de Vídeo', preco=4000),
+    Produto(nome='Placa de Vídeo', preco=4000)
 ]
 
 sessao.add_all(produtos)
